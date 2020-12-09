@@ -14,6 +14,7 @@
       <button onclick="cube()">x^3</button>
       <button onclick="sine()">sin</button>
       <button onclick="power_4()">x^4</button>
+      <button onclick="power_5()">x^5</button>
     </p>
     <script type="text/javascript">
       function cube() {
@@ -35,6 +36,10 @@
       function power_4() {
         var num = document.getElementById("n1");
         num.value = Math.pow(num.value, 4);
+      }
+      function power_5() {
+        var num = document.getElementById("n1");
+        num.value = Math.pow(num.value, 5);
       }
     </script>
   </body>
